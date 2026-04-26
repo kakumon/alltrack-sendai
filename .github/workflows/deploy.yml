@@ -20,9 +20,4 @@ jobs:
             -p ${{ secrets.XSERVER_PORT }} \
             ${{ secrets.XSERVER_USER }}@${{ secrets.XSERVER_HOST }} \
             "cd ~/kigeki-inc.com/public_html/alltrack && git pull origin main"
-
-保存したら、GitHub Desktopに戻ると変更が出ます。
-
-Summary：自動デプロイ設定追加
-Commit
-Push
+            
