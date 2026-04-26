@@ -20,4 +20,3 @@ jobs:
             -p ${{ secrets.XSERVER_PORT }} \
             ${{ secrets.XSERVER_USER }}@${{ secrets.XSERVER_HOST }} \
             "cd ~/kigeki-inc.com/public_html/alltrack && git pull origin main"
-            
